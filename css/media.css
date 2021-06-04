@@ -1,0 +1,142 @@
+ 
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/*logo portion*/
+.logo{
+	width: 90%;
+}
+
+/*menu portion*/
+	.menu ul li a{
+	text-align: right;
+	padding: 0 0!important;
+	
+ }
+
+ /*slider start*/
+	.s-text {
+    margin-top: 20px;
+}
+ /*logo view*/
+ .s-logo li {
+    font-size: 30px;
+    color: #010101;
+    margin-left: 5px;
+}
+ /*carasol indicator*/
+.cid [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+	
+}
+/*features start*/
+.feature{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.c-mt-70 {
+    margin-top: 20px;
+}
+
+.si-text{
+	margin-top: 0px;
+	text-align: center;
+}
+ /*contact start*/
+.ct-tb {
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.social-icon ul li a i {
+    font-size: 35px;
+}
+footer{
+	
+	padding-bottom: 60px; 
+}
+.f-2{
+	padding-top: 20px;
+}
+}
+ /*Small devices (landscape phones, 576px and up)	*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+		.menu ul li a{
+	text-align: right;
+	padding: 0 0!important;
+	
+ }
+	/*header end*/
+	/*slider start*/
+	.s-text {
+    margin-top: 20px;
+}
+ /*logo view*/
+ .s-logo li {
+    font-size: 30px;
+    color: #010101;
+}
+
+.cid [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+/*features start*/
+.feature{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.c-mt-70 {
+    margin-top: 20px;
+}
+
+}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start */
+	.menu ul li a{
+	text-align: right;
+	padding: 0 0!important;
+	
+ }
+/*header end	*/
+/*features start*/
+.feature{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.c-mt-70 {
+    margin-top: 40px;
+}
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/*features heading*/
+.feature{
+    padding-top: 60px ;
+    padding-bottom: 80px;
+}
+
+/*row margin aligned*/
+.c-mt-70 {
+    margin-top: 45px;
+	
+}
+}
+ /*X-Large devices (Large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+		
+	
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px){
+
+}
